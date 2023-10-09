@@ -1,0 +1,109 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e9f5f4;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+/* Common Button Styling */
+button {
+  background-color: #32e000;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* User Panel Styles */
+div.App.user {
+  background-color: #b2dfdb;
+  border: 2px solid #009688; /* Border color for user panel */
+}
+
+.user .refund-button {
+  background-color: #4c6aaf;
+  color: white;
+}
+
+.user .add-money-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user .product-button {
+  background-color: #33c9b2;
+  color: white;
+}
+
+.user .admin-mode-button {
+  background-color: #33a7ff;
+  color: white;
+}
+
+/* Admin Panel Styles */
+div.App.admin {
+  background-color: #b2ebf2;
+  border: 2px solid #00bcd4;
+}
+
+.admin-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-product-item {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.discount-button {
+  background-color: #33e19d;
+  color: white;
+}
+
+.raise-button {
+  background-color: #ff7f66;
+}
+
+.add-stock-button {
+  background-color: #33e143;
+  color: white;
+}
+
+.collect-money-button {
+  background-color: #32e000;
+  color: white;
+}
+
+.reset-machine-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.check-temperature-button {
+  background-color: #3366ff;
+  color: white;
+}
+
+.password-modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
